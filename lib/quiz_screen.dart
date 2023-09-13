@@ -160,7 +160,7 @@ class _QuizScreenState extends State<QuizScreen> {
                         child: normalText(
                             color: lightgrey,
                             size: 18,
-                            text: "Question ${currentQuestionIndex + 1} of ${data.length}")),
+                            text: "Question ${currentQuestionIndex + 1} of ${data.length - 1}")),
                     const SizedBox(height: 20),
                     normalText(color: Colors.white, size: 20, text: data[currentQuestionIndex]["question"]),
                     const SizedBox(height: 20),
