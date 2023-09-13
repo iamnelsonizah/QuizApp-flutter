@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:quiz_app/constants/colors.dart';
 import 'package:quiz_app/constants/images.dart';
 import 'package:quiz_app/constants/text_style.dart';
+import 'package:quiz_app/quiz_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -79,7 +80,7 @@ class _QuizApp extends State<QuizApp> {
                 alignment: Alignment.center,
                 child: GestureDetector(
                   onTap: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => const QuizApp()));
+                     Navigator.push(context, MaterialPageRoute(builder: (context) => const QuizScreen()));
                   },
                   child: Container(
                     alignment: Alignment.center,
